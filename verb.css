@@ -1,25 +1,50 @@
 
-  ul {
+  #opt
+  {
+    list-style-type: none;
+
+  }
+
+  div#nav ul
+  {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ac7758;
+    background-color: #e77533;
   }
-  li {
+  div#nav li
+  {
     float: left;
+    font-size: 20px;
   }
-  
-  li a {
+  div#nav li a
+  {
     display: block;
     color: white;
-    padding: 14px 16px;
+    padding: 25px 16px;
     text-decoration: none;
     text-align: center;
   }
-
-#opt
-{
-  list-style-type: none;
-
-}
+  div#nav
+  {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+  }
+  footer
+  {
+    background-color: #e77533;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom:0%;
+    width: 100%;
+  }
+  center h4
+  {
+    width: 90%;
+    line-height: 1.6;
+  }
