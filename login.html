@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">  <!-- comentário  paginas em português	-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Sidnei">
+		<meta name="keywords" content="HTML 5, CSS3, Formatação de site">
+		<meta name="description" content="trabalhando com CSS, Conceitos Básicos">
+
+		<link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="StyleSheet" crossorigin="anonymous" />
+		<link type="text/css" href="assets/altura.css" rel="StyleSheet"  />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+    	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    	<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+		
+		<title></title>
+	</head>
+	<body>
+
+		<header>
+            <div id="navegação">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/capyverb 2.png" alt="Logo" width="50" height="50" class="d-inline-block">
+                            Capyverb
+                          </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link mx-1 active" aria-current="page" href="aulas.html">Aulas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mx-1" href="qsm.html">Quem Somos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mx-1" href="faq.html">FAQs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mx-1" href="login.html">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+		<div class="container" id="container">
+			<div class="form-container sign-up-container">
+				<form action="#">
+					<h1>Criar Conta</h1>
+					<div class="social-container">
+						<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+						<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<span>ou usar e-mail para registro</span>
+					<input type="text" placeholder="Nome" />
+					<input type="email" placeholder="E-Mail" />
+					<input type="password" placeholder="Senha" />
+					<button> Criar Conta </button>
+				</form>
+			</div>
+			<div class="form-container sign-in-container">
+				<form action="#">
+					<h1>Entrar</h1>
+					<div class="social-container">
+						<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+						<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<span>ou usar sua conta</span>
+					<input type="email" placeholder="E-Mail" />
+					<input type="password" placeholder="Senha" />
+					<a href="#">Esqueceu sua senha? </a>
+					<button> Entrar </button>
+				</form>
+			</div>
+			<div class="overlay-container">
+				<div class="overlay">
+					<div class="overlay-panel overlay-left">
+						<h1>Bem-vindo de volta!</h1>
+						<p> Para se manter conectado conosco, favor entrar com informação pessoal.</p>
+						<button class="ghost" id="signIn">Entrar</button>
+					</div>
+					<div class="overlay-panel overlay-right">
+						<h1>Olá amigo!</h1>
+						<p> Entre com suas informações pessoais e comece sua jornada conosco.</p>
+						<button class="ghost" id="signUp">Criar Conta</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="assets/main.js"></script>
+	</body>
+</html>

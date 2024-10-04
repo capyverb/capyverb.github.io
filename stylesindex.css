@@ -1,0 +1,12 @@
+.slide{
+    height: 450px;
+}
+
+.carousel-inner{
+    height: 100%;
+    object-fit: fill;
+}
+
+.carousel-inner img{
+    filter: brightness(0.6);
+}
